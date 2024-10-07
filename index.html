@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div><h1>Registration Form</h1></div>
+        <div>
+            <p>
+                Company Name : Skillyards<br>
+                City Name : Agra<br>
+                Contact No. +9180XXXXXX52<br>
+                Email : Skillyardsagra@gmail.com
+            </p>
+        </div>
+        <div>
+            <p>Registration ID : AYWPDS05467</p>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <form action="">
+            <section class="heading-section">
+                <div>
+                    <h3>PERSONAL INFORMATION</h3>
+                </div>
+                <div>
+                    <label for="date">DATE</label>
+                    <input type="date" name="date" id="date">
+                </div>
+            </section>
+
+            <section class="detail-section">
+                <label for="full-name">FULL NAME <b>:</b></label>
+                <input type="text" name="name" id="full-name" placeholder="Enter your Full Name">
+
+                <label for="address">ADDRESS <b>:</b></label>
+                <input type="text" name="address" id="address" placeholder="Enter your Address">
+
+                <label for="pin-code">PINCODE <b>:</b></label>
+                <input type="text" name="pincode" id="pin-code" placeholder="Enter Pincode">
+
+                <label for="city">CITY <b>:</b></label>
+                <input type="text" id="city" name="city" placeholder="Enter your City Name">
+
+                <label for="country">COUNTRY <b>:</b></label>
+                <input type="text" id="country" name="country" placeholder="Country Name">
+
+                <label for="DoB">DATE OF BIRTH</label>
+                <input type="date" name="date" id="DoB">
+
+                <label for="marital-status">MARITAL STATUS <b>:</b></label>
+                <label for="yes">YES</label>
+                <input type="radio" name="marital" id="yes" value="yes">
+                <label for="no">NO</label>
+                <input type="radio" name="marital" id="no" value="no">
+
+                <label for="region">REGION <b>:</b></label>
+                <input type="text" name="region" id="region" placeholder="Enter Region">
+
+                <label for="mother">MOTHER'S NAME <b>:</b></label>
+                <input type="text" name="mother-name" id="mother" placeholder="Enter Mother's Name">
+
+                <label for="father">FATHER'S NAME <b>:</b></label>
+                <input type="text" name="father-name" id="father" placeholder="Enter Father's Name">
+
+                <label for="nationality">NATIONALITY <b>:</b></label>
+                <input type="text" name="nationality" id="nationality" placeholder="Enter Nationality">
+
+                <label for="adhar">ADHAR CARD NO. <b>:</b></label>
+                <input type="text" name="adhar" id="adhar" placeholder="Enter Adhar Card No.">
+            </section>
+
+            <aside>
+                <label for="gender">GENDER <b>:</b></label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">MALE</label>
+
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">FEMALE</label>
+
+                <input type="radio" name="gender" id="transgender" value="transgender">
+                <label for="transgender">TRANSGENDER</label>
+
+                <input type="radio" name="gender" id="non-binary" value="non-binary">
+                <label for="non-binary">NON-BINARY</label>
+            </aside>
+            <br>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </main>
+</body>
+</html>
